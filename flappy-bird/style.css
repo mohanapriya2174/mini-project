@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-color: skyblue;
+}
+.bird {
+  position: fixed;
+  height: 80px;
+  width: 140px;
+  top: 40vh;
+  left: 30vw;
+  z-index: 100;
+}
+.message {
+  position: fixed;
+  z-index: 10;
+  height: 20vh;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+  top: 200px;
+  left: 450px;
+  width: 40vw;
+  text-align: center;
+}
+.total_score {
+  position: fixed;
+  z-index: 10;
+  height: 20vh;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+  top: 250px;
+  left: 450px;
+  width: 40vw;
+  text-align: center;
+}
+.score {
+  position: fixed;
+  z-index: 10;
+  height: 10vh;
+  font-size: 20px;
+  font-weight: 100;
+  color: gold;
+  top: 0;
+  left: 0;
+}
+.score_value {
+  color: gold;
+}
+.pipe {
+  position: fixed;
+  top: 40vh;
+  left: 100vw;
+  height: 70vh;
+  width: 6vw;
+  background-color: rgb(211, 211, 91);
+}
