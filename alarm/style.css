@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+.innerWrap {
+  padding: 60px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.timer-display {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  padding-left: 95px;
+  /* display: flex;
+  justify-self: center;
+  align-items: center; */
+  font-weight: 600;
+}
+
+input {
+  font-size: 2rem;
+  border: 1px solid black;
+}
+#set {
+  background-color: #377dff;
+  border: none;
+  padding: 0.9em 1.8em;
+  display: block;
+  margin: 1.5em auto 0 auto;
+  border-radius: 2em;
+  color: #ffffff;
+  font-size: 20px;
+}
+.alarm {
+  display: grid;
+  grid-template-columns: 8fr 2fr 2fr;
+  gap: 1em;
+  margin-top: 1.5em;
+  align-items: center;
+  border-bottom: 1px solid#898f9b;
+  padding-bottom: 0.6em;
+}
+.alarm input[type="checkbox"] {
+  appearance: auto;
+  height: 20px;
+  width: 24px;
+  background-color: #e2e2ec;
+  position: relative;
+  border-radius: 1.25em;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+}
+.alarm input[type="checkbox"]:before {
+  position: absolute;
+  content: "";
+  background-color: #757683;
+  height: 0.43em;
+  width: 0.43em;
+  border-radius: 50%;
+  top: 0.25em;
+  left: 0.25em;
+}
+.alarm input[type="checkbox"]:checked {
+  background-color: #d2e2ff;
+}
+.alarm input[type="checkbox"]:checked:before {
+  background-color: #377dff;
+  left: 2em;
+}
+.deleteButton {
+  background-color: transparent;
+  font-size: 1.5em;
+  color: none;
+  border: none;
+  cursor: pointer;
+}
